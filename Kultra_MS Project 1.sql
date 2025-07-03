@@ -206,5 +206,14 @@ ORDER BY
     Order_Priority,
     Ship_Mode;
 
+---Based on the analysis, if high-cost shipping like Express Air is being used for low-priority orders,
+---it signals a misalignment and unnecessary shipping expense.
+---Similarly, using Delivery Truck for critical orders may delay urgent deliveries and impact customer satisfaction.
+
+---**Recommendation:** KMS should create a policy linking Order Priority with approved Shipping Methods to optimize cost and delivery efficiency.
+---For example:
+---Use Express Air only for Critical/High
+---Use Delivery Truck only for Low/Medium
+
 SELECT TOP 5 *
 FROM [dbo].[Kultra_MS];
