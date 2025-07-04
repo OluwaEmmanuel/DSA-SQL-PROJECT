@@ -49,6 +49,12 @@ The analysis followed these major steps:
     - project documentation
   - CSV dataset for structured input
 
+## 🗂️ File:
+```
+Kultra_MS Project 1
+├── queries
+```
+
 ## 🧮 Key SQL Analyses Performed:
   - **Customer Profitability**
     - Top 3 and bottom 3 customers by total sales and Profit
